@@ -170,8 +170,49 @@ body{
 
 .contact-info div{
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* padding-top: 10%; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.container-contact-words{
+    display: flex;
+    /* flex: 1 0 0%; */
+    /* border: 1px solid red; */
+    /* height: min-content; */
+}
+
+.container-contact-words div{
+    flex: 1;
+    margin: auto;
+    /* border: 1px solid red; */
+    min-width: fit-content;
+}
+
+#btn-sign-up{
+    width: 180px;
+    height: 45px;
+    color: #fff;
+    background-color: #3882F6;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container-contact-btn{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-contact-btn div{
+    flex: 1;
+    margin: auto;
+    /* border: 1px solid red; */
 }
 
 .span-call{
